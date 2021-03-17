@@ -1,0 +1,36 @@
+.navbar_item:hover {
+    text-decoration: none;
+   background-color: #a2d0c1;
+    color: #214151;
+}
+
+.navbar {
+    background-color: #214151;
+    padding-left: 10%;
+}
+
+.navbar a, .logo {
+    text-decoration: none;
+}
+.navbar_item {
+    height: 40px;
+    font-size: 25px;
+    color: #a2d0c1;
+    margin-left: 10px;
+}
+.logo img {
+    height: 50px;
+    top: 5px;
+}
+.logo {
+    margin-left: 10px;
+    margin-right: 10px;
+    color: #f8dc81;
+    font-size: 30px;
+    font-weight: bold;
+}
+.logo:hover {
+    text-decoration: none;
+    color: #f8dc81;
+
+}

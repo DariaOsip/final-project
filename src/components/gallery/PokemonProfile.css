@@ -1,0 +1,44 @@
+.pokemon_profile {
+   margin: 90px 20% auto 20%;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+}
+.wrapper {
+    width: 60%;
+}
+.profile_info {
+    display: flex;
+    flex-direction: row;
+font-size: 20px;
+    margin: auto auto auto 20px;
+
+}
+.link_back {
+font-weight: bold;
+    font-size: 30px;
+    color: #214151;
+}
+.link_back:hover {
+    text-decoration: none;
+}
+.profile_info_title {
+    font-weight: bold;
+}
+.profile_info {
+    display: flex;
+    flex-direction: column;
+}
+
+
+@media only screen and (max-width: 650px){
+    .pokemon_profile {
+        flex-direction: column;
+    }
+    .wrapper {
+        width: 80%;
+    }
+    .pokemon_profile {
+        margin: 90px 10% auto 10%;
+    }
+}

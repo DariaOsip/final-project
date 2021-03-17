@@ -1,0 +1,11 @@
+.drop {
+    max-width: 450px;
+    height: 30px;
+    margin-left: 7%;
+    font-size: 20px;
+}
+#limit-select {
+    width: 45px;
+    height: 35px;
+    font-size: 20px;
+}

@@ -1,5 +1,5 @@
 {
-  "pokemons": [
+  "creatures": [
     {
       "name": "bulbasaur",
       "id": 1
@@ -3795,6 +3795,104 @@
     {
       "name": "magearna-original",
       "id": 10147
+    }
+  ],
+  "captures": [
+    {
+      "creatureId": 12,
+      "id": 12,
+      "name": "butterfree",
+      "captureDate": "16.03.2021"
+    },
+    {
+      "creatureId": 2,
+      "id": 2,
+      "name": "ivysaur",
+      "captureDate": "16.03.2021"
+    },
+    {
+      "creatureId": 4,
+      "id": 4,
+      "name": "charmander",
+      "captureDate": "16.03.2021"
+    },
+    {
+      "creatureId": 5,
+      "id": 5,
+      "name": "charmeleon",
+      "captureDate": "16.03.2021"
+    },
+    {
+      "creatureId": 92,
+      "id": 92,
+      "name": "gastly",
+      "captureDate": "16.03.2021"
+    },
+    {
+      "creatureId": 33,
+      "id": 33,
+      "name": "nidorino",
+      "captureDate": "16.03.2021"
+    },
+    {
+      "creatureId": 34,
+      "id": 34,
+      "name": "nidoking",
+      "captureDate": "16.03.2021"
+    },
+    {
+      "creatureId": 652,
+      "id": 652,
+      "name": "chesnaught",
+      "captureDate": "16.03.2021"
+    },
+    {
+      "creatureId": 93,
+      "id": 93,
+      "name": "haunter",
+      "captureDate": "16.03.2021"
+    },
+    {
+      "creatureId": 3,
+      "id": 3,
+      "name": "venusaur",
+      "captureDate": "16.03.2021"
+    },
+    {
+      "creatureId": 94,
+      "id": 94,
+      "name": "gengar",
+      "captureDate": "16.03.2021"
+    },
+    {
+      "creatureId": 95,
+      "id": 95,
+      "name": "onix",
+      "captureDate": "16.03.2021"
+    },
+    {
+      "creatureId": 96,
+      "id": 96,
+      "name": "drowzee",
+      "captureDate": "16.03.2021"
+    },
+    {
+      "creatureId": 98,
+      "id": 98,
+      "name": "krabby",
+      "captureDate": "16.03.2021"
+    },
+    {
+      "creatureId": 97,
+      "id": 97,
+      "name": "hypno",
+      "captureDate": "16.03.2021"
+    },
+    {
+      "creatureId": 1,
+      "id": 1,
+      "name": "bulbasaur",
+      "captureDate": "17.03.2021"
     }
   ]
 }
