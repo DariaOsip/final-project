@@ -22,13 +22,13 @@ export class PagePagination extends React.Component<PaginationPropsType, any> {
     }
 
     handleClickPrev() {
-        // this.handleClickNumber(this.props.currentPage === 1 ? 1 : this.props.currentPage);
+        this.handleClickNumber(this.props.currentPage === 1 ? 1 : this.props.currentPage - 1);
     }
 
     handleClickNext() {
-        // let lastPage = this.getLastPage(this.props.allItemsCount, this.props.limit);
-        // const page = this.props.currentPage === lastPage ? this.props.currentPage: this.props.currentPage + 1;
-        // this.handleClickNumber(page);
+        let lastPage = this.getLastPage(this.props.allItemsCount, this.props.limit);
+        const page = this.props.currentPage === lastPage ? this.props.currentPage : this.props.currentPage + 1;
+        this.handleClickNumber(page);
     }
 
     getLastPage(allItemsCount: number, limit: number): number {
